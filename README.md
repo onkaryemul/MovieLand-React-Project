@@ -51,27 +51,21 @@ Welcome to *MovieLand*, a React project inspired by the concepts covered in the 
 
 1. Get your OMDB API key by following the instructions in the [OMDB API](https://www.omdbapi.com/apikey.aspx) documentation.
 
-2. Replace the placeholder API key in the src/app.js file:
-
-    ```javascript
-    const api_url = "http://www.omdbapi.com/?apikey=YOUR_API_KEY";
-    ```
-
-3. Start the development server:
-
-    ```bash
-    npm start
-    ```
-
-4. Create an `.env` file in the root directory and add your OMDB API key in it:
+2. Create an `.env` file in the root directory and add your OMDB API key in it:
 
    ```env
    REACT_APP_API_KEY=your_api_key_here
    ```
    
    Replace `your_api_key_here` with your actual OMDB API key.
-   
-6. Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the MovieLand website in action.
+
+3. Start the development server:
+
+    ```bash
+    npm start
+    ```
+    
+4. Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the MovieLand website in action.
 
 ## Contributing
 
